@@ -9,7 +9,7 @@ from langchain.callbacks import get_openai_callback
 
 
 def main():
-   
+    st.write("OPENAI_API_KEY:", st.secrets["OPENAI_API_KEY"])
     st.set_page_config(page_title="Ask your PDF")
     st.header("Ask your PDF 💬")
     
